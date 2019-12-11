@@ -1,0 +1,76 @@
+#sl{
+  background:  center/100% url("../img/stoop-assets/stoopcover.jpg");
+  height: 880px;
+  background-position: center;
+  background-size: cover;
+  background-position: 0px 0px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  position: fixed;
+  width: 13%;
+  left:-13%;
+  top:0;
+  height: 100%;
+  background-color:rgb(36,40,49);
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  padding: 30px;
+  text-align: center;
+}
+nav a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav ul li a{
+    color: gray;
+    font-size: 20px;
+    width: 25px;
+
+}
+nav li a:hover {
+  background-color:rgb(73, 75, 79);
+}
+
+nav li a:active {
+  background-color:rgb(73, 75, 79,0.5);
+}
+
+.toggle-btn{
+  position: absolute;
+  left: 105%;
+  top:15px;
+}
+
+.toggle-btn span{
+  display: block;
+  background-color: rgb(36,40,49);
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+
+#sidebar.active{
+  left: 0;
+}
+
+nav #social-media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
