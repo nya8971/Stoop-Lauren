@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lato&display=swap');
+
 #sl{
+  font-family: 'Lato', sans-serif;
   background:  center/100% url("../img/stoop-assets/stoopcover.jpg");
   height: 880px;
   background-position: center;
