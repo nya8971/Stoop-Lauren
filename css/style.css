@@ -2,7 +2,7 @@
 
 #sl{
   font-family: 'Lato', sans-serif;
-  background:  center/100% url("../img/stoop-assets/stoopcover.jpg");
+  background:  center/100% url("../img/images/PJC09289.jpg");
   height: 880px;
   background-position: center;
   background-size: cover;
@@ -50,6 +50,11 @@ nav li a:hover {
 
 nav li a:active {
   background-color:rgb(73, 75, 79,0.5);
+}
+.logo-cobalt{
+  height: 48px;
+  float: left;
+  margin: 16px 48px;
 }
 
 .toggle-btn{
