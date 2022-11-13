@@ -34,8 +34,13 @@
   margin: 0;
 }
 
+.latest-release img{
+  margin-top: 10px;
+  width: 50%;
+}
+
 .stoop-socials{
-  margin: 25px 100px 0px 0;
+  margin: 5px 100px 0px 0;
 }
 
 .right-wrapper{
