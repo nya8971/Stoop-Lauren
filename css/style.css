@@ -1,55 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lato&display=swap');
 
-.sl img{
-  /* font-family: 'Lato', sans-serif;
-  background: white url("../img/images/PJC09289.jpg");
-  background-size: contain;
-  min-width: 862px;
-  background-attachment: fixed;
-  background-repeat: no-repeat; */
-  width: 50%;
-  max-width: 50%;
+.stoop-logo img{
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  width:20%;
+  padding-bottom: 20px;
+}
+
+.sl-image img{
+  width: 80%;
   min-width: 50%;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-.sl, .right-wrapper,.stoop-socials{
+.sl,.stoop-socials{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
+.latest-release{
+  text-transform: uppercase;
+  text-align: center;
+  display:block;
+  margin: 0 100px 0px 0;
+}
 
-.right-wrapper{
-padding-top: auto;
+.latest-release h1,h3{
+  padding: 0;
+  margin: 0;
 }
 
 .stoop-socials{
-  display: flex;
-  margin: 0 auto;
+  margin: 25px 100px 0px 0;
 }
+
+.right-wrapper{
+  margin: 0;
+  padding: 0;
+}
+
 
 body {
   margin: 0;
   padding: 0;
-  color: rgb(24, 40, 38);
+  /* color: rgb(24, 40, 38); */
+  color:rgb(35, 55, 54)
 }
 
+/* .stoop-socials i{
+  padding: 5px;
+} */
+
 .stoop-socials li{
+  display: inline;
   list-style-type: none;
   text-transform: uppercase;
-  border: 1px solid rgb(24, 40, 38);
-  font-size: 15px;
+  border: 1px solid rgb(35, 55, 54);
+  font-size: 12px;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   margin-top: 10px;
-  padding: 5px;
+  padding: 5px 20px;
 }
 
 .stoop-socials li a:active,a:link,a::before{
   list-style-type: none;
   text-transform: uppercase;
-  color: rgb(24, 40, 38);
-  border: 1px solid rgb(24, 40, 38);
+  color: inherit;
+  /* border: 1px solid rgb(24, 40, 38); */
   font-size: 15px;
 }
 
@@ -57,6 +80,11 @@ body {
   opacity:50%;
 }
 
+.copyright-footer{
+  text-transform: uppercase;
+  text-align: center;
+  display:inline;
+  margin: 0 100px 0px 0;
 /* nav {
   display: flex;
   position: fixed;
